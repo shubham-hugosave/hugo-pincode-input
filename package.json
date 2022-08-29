@@ -1,13 +1,13 @@
 {
-  "name": "react-native-smooth-pincode-input",
-  "version": "1.0.9",
-  "description": "A cross-platform, smooth, lightweight, customizable PIN code input component for React Native.",
+  "name": "hugo-pincode-input",
+  "version": "1.1.0",
+  "description": "Hugosave's implementation. A cross-platform, smooth, lightweight, customizable PIN code input component for React Native.",
   "main": "src/index.js",
   "scripts": {
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xamous/react-native-smooth-pincode-input.git"
+    "url": "https://github.com/shubham-hugosave/hugo-pincode-input.git"
   },
   "keywords": [
     "react-native",
@@ -15,11 +15,11 @@
     "password",
     "TextInput"
   ],
-  "author": "William Shih <xamous@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/xamous/react-native-smooth-pincode-input/issues"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@hugo-pincode-input"
   },
+  "author": "Shubham Chakraborty<shubham@hugosave.com>",
+  "license": "MIT",
   "homepage": "https://github.com/xamous/react-native-smooth-pincode-input",
   "peerDependencies": {
     "react-native": "*"
