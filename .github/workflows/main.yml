@@ -1,9 +1,9 @@
-name: Node.js package
+name: Node.js Package
 
 on:
-  pushes:
+  push:
     branches:
-     -master
+     - main
      
 jobs:
   publish-gpr:
@@ -11,10 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-      with:
-        node-version: 14
-        registry-url: https://npm.pkg.github.com/
-        scope: @Hugosave-SG
+        with:
+          node-version: 14
+          registry-url: https://npm.pkg.github.com/
+          scope: @Hugosave-SG
     - run: npm install
     - run: npm publish
       env:
