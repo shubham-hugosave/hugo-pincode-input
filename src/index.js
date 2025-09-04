@@ -230,7 +230,7 @@ class SmoothPinCodeInput extends Component {
           }}
           style={{
             flex: 1,
-            opacity: 0,
+            color: 'transparent',
             textAlign: 'center',
           }}
           testID={testID || undefined}
